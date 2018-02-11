@@ -4,7 +4,7 @@ Simple wrapper that will reduce callback-hell with multiple SQL queries.
 
 ## Features
  - Transactions with multiple queries
- - Hook to put ID's into next queries in transaction sequense
+ - Hook to put ID's into next queries in transaction sequence
  - Access rights check during transaction (`APIprecheck` field in query)
  - Pagination data
 
@@ -14,7 +14,7 @@ Simple wrapper that will reduce callback-hell with multiple SQL queries.
 ```js
 var _sqldb = require("./sqldb.js");
 var this.db = new _sqldb();
-   this.db.init({host: 'production.server.example.co.nz', user: 'root', password: 'wowBestUserForThisDB', db: 'productiondb'});
+    this.db.init({host: 'production.server.example.co.nz', user: 'root', password: 'wowBestUserForThisDB', db: 'productiondb'});
 ```
 
 ### Simple transaction
